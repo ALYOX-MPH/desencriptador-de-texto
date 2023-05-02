@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="codificador de texto.css">
+    <script src="codificador de texto.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge one</title>
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg"src="img/logo@2x.png">
+            <h1 class="title">Codificador y
+                Decodificador<br>
+             de texto</h1>
+            
+        </div>
+
+        <div class="left">
+          <input class="text-input" type="text" 
+          name="input-texto" id="inputtexto" 
+          placeholder="Ingrece el texto aqui" >
+        </div>
+        
+        <div class="right">
+           <img src="img/muñeco.png" id="imgDer" >
+           <h1 id="texto"> Ningun mensaje fue encontrado</h1>
+           <textarea id="texto2" name="name" rows="8" cols="80">Ingrsa el texto que decea Codificar o Descodificar</textarea>
+           <button type="button" id="copiar"  onclick="copia()">¡copiar!</button>
+        </div>
+
+
+        <div class="left-button">
+            <p>Solo sin minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar"onclick="desencriptar()">decencriptar</button>
+        </div>
+    
+    </div>
+           
+</body>
+</html>
